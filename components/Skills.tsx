@@ -10,11 +10,13 @@ export default function Skills({}: Props) {
         Skills
       </h3>
 
-      <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
+      {/* <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
         Hover over a skill for current profieciency
-      </h3>
+      </h3> */}
 
-      <div className='grid grid-cols-4 gap-5'>
+      <div className='mt-10'>
+        <Skill />
+        {/* <Skill />
         <Skill />
         <Skill />
         <Skill />
@@ -26,9 +28,7 @@ export default function Skills({}: Props) {
         <Skill />
         <Skill />
         <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill /> */}
       </div>
     </div>
   )
