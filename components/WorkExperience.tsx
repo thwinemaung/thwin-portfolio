@@ -18,7 +18,7 @@ export default function WorkExperience({ }: Props) {
       }}
       className='relative h-screen flex flex-col overflow-hidden text-center max-w-full  md:flex-row px-10 justify-evenly mx-auto items-center'
     >
-      <h3 className='absolute top-24 text-2xl tracking-[20px] uppercase text-gray-500'>
+      <h3 className='absolute top-24 text-2xl tracking-[20px] uppercase text-[#ccd6f6]'>
         Experience
       </h3>
       <motion.div
@@ -36,7 +36,7 @@ export default function WorkExperience({ }: Props) {
         viewport={{
           once: true
         }}
-        className='flex mt-10 overflow-x-scroll w-full space-x-5 p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'
+        className='flex mt-10 overflow-x-scroll w-full space-x-5 p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#64ffda]/80'
       >
         <ExperienceCard />
         {/* <ExperienceCard />

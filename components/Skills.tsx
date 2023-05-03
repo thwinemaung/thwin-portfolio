@@ -6,7 +6,7 @@ type Props = {}
 export default function Skills({}: Props) {
   return (
     <div className='flex relative flex-col text-center min-h-screen justify-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 items-center xl:space-y-0 mx-auto'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-24 uppercase tracking-[20px] text-[#ccd6f6] text-2xl'>
         Skills
       </h3>
 

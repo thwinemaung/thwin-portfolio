@@ -7,10 +7,10 @@ export default function ExperienceCard({ }: Props) {
   return (
     <div className='flex'>
       <div className='flex w-screen items-center justify-center'>
-        <div className='flex flex-col rounded-lg items-center justify-center space-y-7 w-[500px] md:w-[650px] xl:w-[900px]  flex-shrink-0 snap-center p-10 bg-[#292929] hover:opacity-90 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+        <div className='flex flex-col rounded-lg items-center justify-center space-y-7 w-[500px] md:w-[650px] xl:w-[900px]  flex-shrink-0 snap-center p-10 bg-[#64ffda]/10 hover:opacity-80 opacity-30 cursor-pointer transition-opacity duration-200 overflow-hidden'>
           <div className='px-0 md:px-10'>
             <h4 className='text-2xl font-light'>eHealth Officer</h4>
-            <p className='font-semibold text-2xl mt-1'>PSI Myanmar</p>
+            <p className='text-[#64ffda] font-semibold text-2xl mt-1'>PSI Myanmar</p>
 
             <p className='uppercase py-5 text-gray-300'>AUG 2020 - DEC 2022</p>
             <ul className='list-disc space-y-4 ml-5 text-left text-sm md:text-base'>
@@ -34,10 +34,10 @@ export default function ExperienceCard({ }: Props) {
         </div>
       </div>
       <div className='flex w-screen items-center justify-center'>
-        <div className='flex flex-col rounded-lg items-center justify-center space-y-7 w-[500px] md:w-[600px] xl:w-[900px]  flex-shrink-0 snap-center p-10 bg-[#292929] hover:opacity-90 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+        <div className='flex flex-col rounded-lg items-center justify-center space-y-7 w-[500px] md:w-[650px] xl:w-[900px]  flex-shrink-0 snap-center p-10 bg-[#64ffda]/10 hover:opacity-80 opacity-30 cursor-pointer transition-opacity duration-200 overflow-hidden'>
           <div className='px-0 md:px-10'>
             <h4 className='text-2xl font-light'>Product Engineer</h4>
-            <p className='font-semibold text-2xl mt-1'>Myanmar ShweTech Co., Ltd.</p>
+            <p className='text-[#64ffda] font-semibold text-2xl mt-1'>Myanmar ShweTech Co., Ltd.</p>
 
             <p className='uppercase py-5 text-gray-300'>AUG 2019 - AUG 2020</p>
             <ul className='list-disc space-y-4 ml-5 text-left text-sm md:text-base'>
@@ -61,10 +61,10 @@ export default function ExperienceCard({ }: Props) {
         </div>
       </div>
       <div className='flex w-screen items-center justify-center'>
-        <div className='flex flex-col rounded-lg items-center justify-center space-y-7 w-[500px] md:w-[600px] xl:w-[900px]  flex-shrink-0 snap-center p-10 bg-[#292929] hover:opacity-90 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+        <div className='flex flex-col rounded-lg items-center justify-center space-y-7 w-[500px] md:w-[650px] xl:w-[900px]  flex-shrink-0 snap-center p-10 bg-[#64ffda]/10 hover:opacity-80 opacity-30 cursor-pointer transition-opacity duration-200 overflow-hidden'>
           <div className='px-0 md:px-10'>
             <h4 className='text-2xl font-light'>Web Developer Intern</h4>
-            <p className='font-semibold text-2xl mt-1'>ICT Star Group Myanmar Co., Ltd.</p>
+            <p className='text-[#64ffda] font-semibold text-2xl mt-1'>ICT Star Group Myanmar Co., Ltd.</p>
 
             <p className='uppercase py-5 text-gray-300'>MAY 2018 - JUL 2018</p>
             <ul className='list-disc space-y-4 ml-5 text-left text-sm md:text-base'>

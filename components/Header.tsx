@@ -24,10 +24,10 @@ export default function Header({}: Props) {
           }}
           className='flex flex-row items-center'
         >
-            <SocialIcon url='https://www.linkedin.com/in/thwinemaung/' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='gray' bgColor='transparent' />
-            <SocialIcon url='https://github.com/thwinemaung' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='gray' bgColor='transparent' />
-            <SocialIcon url='https://www.facebook.com/thwinemaung' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='gray' bgColor='transparent' />
-            <SocialIcon url='https://www.instagram.com/thwinemaung/' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.linkedin.com/in/thwinemaung/' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='#b1bcda' bgColor='transparent' />
+            <SocialIcon url='https://github.com/thwinemaung' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='#b1bcda' bgColor='transparent' />
+            <SocialIcon url='https://www.facebook.com/thwinemaung' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='#b1bcda' bgColor='transparent' />
+            <SocialIcon url='https://www.instagram.com/thwinemaung/' style={{ height: 40, width: 40 }} className='cursor-pointer' fgColor='#b1bcda' bgColor='transparent' />
         </motion.div>
 
         <motion.div
@@ -47,7 +47,7 @@ export default function Header({}: Props) {
           className='flex flex-row items-center text-gray-300 cursor-pointer'
         >
           
-          <SocialIcon url='#contact' style={{ height: 45, width: 45 }} className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent' />
+          <SocialIcon url='#contact' style={{ height: 45, width: 45 }} className='cursor-pointer' network='email' fgColor='#b1bcda' bgColor='transparent' />
           <Link href="#contact">
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p>
           </Link>
